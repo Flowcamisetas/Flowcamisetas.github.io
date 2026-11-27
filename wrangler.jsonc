@@ -1,0 +1,19 @@
+{
+  "name": "flowcamiseta",
+  "main": "worker.js",
+  "compatibility_date": "2026-11-27",
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/api/*"
+    ]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "flow-catalogo",
+      "database_id": "1143a0ec-2e99-4756-8adc-c06b842a50d8"
+    }
+  ]
+}
